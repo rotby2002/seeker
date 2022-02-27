@@ -629,15 +629,16 @@ Telegram
 Ví dụ mình chọn Google Drive thì chọn số '1'
 < img src = "https://anonyviet.com/wp-content/uploads/2021/01/cach-dung-seeker-1.jpg" >
 Tiếp theo bạn nhập bất kỳ link nào cũng được, mình sẽ copy link drive của 1 file bấy kỳ. Khi nạn nhân click vào link fake sẽ tự chuyển hướng sang link thật để tránh bị nghi ngờ.
-Sau đó nhấn Enter, nếu thấy xuất hiện thông báo < a>Waiting for User Interaction… </ a>, bạn cứ giữ yên cửa sổ Terminal ở đó, đừng tắt nhé.
-Bây giờ bạn mở thêm cửa sổ Terminal thứ 2 thực hiện các lệnh sau: 'wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
+Sau đó nhấn Enter, nếu thấy xuất hiện thông báo Waiting for User Interaction… , bạn cứ giữ yên cửa sổ Terminal ở đó, đừng tắt nhé.
+Bây giờ bạn mở thêm cửa sổ Terminal thứ 2 thực hiện các lệnh sau: 
+'wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 'unzip ngrok-stable-linux-amd64.zip'
 './ngrok http 8080'
 P/s: trường hợp không tải được ngrok thì vào trang chủ để tải và giải nén nhé.
 
 Trên màn hình sẽ xuất hiện đường link của seeker, bạn chỉ cần gửi link này cho người mà bạn muốn lấy vị trí và thông tin thiết bị:
 < img src = "https://anonyviet.com/wp-content/uploads/2021/01/ngrok-port-seeker-1.jpg" >
-Khi đó trình duyệt sẽ yêu cầu cấp quyền vị trí, khi người dùng click vào < a >Allow (cho phép) </ a>, bạn sẽ nhận được thông tin về thiết bị và địa chỉ của họ.
+Khi đó trình duyệt sẽ yêu cầu cấp quyền vị trí, khi người dùng click vào Allow (cho phép), bạn sẽ nhận được thông tin về thiết bị và địa chỉ của họ.
 Quay ra lại Terminal của Seeker bạn sẽ thấy đầy đủ thông tin IP, nhà mạng, tọa độ, có cả link Google Maps, xác nhất khoảng 30m.
 < img src = "https://anonyviet.com/wp-content/uploads/2021/01/dinh-vi-dia-chi-nha-bang-ip-seeker-1.jpg" >
 Nếu muốn xem lại thông tin bạn có thể vào thư mục 'seeker/db/results.csv'
