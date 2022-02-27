@@ -205,11 +205,13 @@ Ví dụ mình chọn Google Drive thì chọn số '1'
 Tiếp theo bạn nhập bất kỳ link nào cũng được, mình sẽ copy link drive của 1 file bấy kỳ. Khi nạn nhân click vào link fake sẽ tự chuyển hướng sang link thật để tránh bị nghi ngờ.
 Sau đó nhấn Enter, nếu thấy xuất hiện thông báo Waiting for User Interaction… , bạn cứ giữ yên cửa sổ Terminal ở đó, đừng tắt nhé.
 Bây giờ bạn mở thêm cửa sổ Terminal thứ 2 thực hiện các lệnh sau: 
+
 ```bash
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok http 8080
 ````
+
 P/s: trường hợp không tải được ngrok thì vào trang chủ để tải và giải nén nhé.
 
 Trên màn hình sẽ xuất hiện đường link của seeker, bạn chỉ cần gửi link này cho người mà bạn muốn lấy vị trí và thông tin thiết bị:
